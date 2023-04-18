@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   
+    
+    
+}
+
+:root {
+    --primary: #00b06c;
+    --secundary: #777777;
+}
+
+
+.header-top{
+    font-size: 13px;
+    color: var(--secundary);
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebebeb;
+   
+    }
+.phone {
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    padding:5px 0px 10px;
+    margin left: 15%;
+}
+.phone span{
+    font-family: arial;
+}
+.phone img{
+    height: 1rem
+  
+}
+
+.option{    display: inline-flex;
+    font-family: roboto;
+}
+.option div{
+    justify-content: center;
+    align-items: center;   
+    font-family: roboto;
+}
+.contact{
+    padding: 8px 10px 11px;
+    text-decoration: none;
+    color: var(--secundary);
+
+   
+    
+}
+.lenguage{
+    padding: 8px 10px 10px; 
+    color: var(--primary)
+   
+}
+.money{
+    padding: 8px 10px 10px;
+    }
+.money strong{
+    color: var(--primary);
+}
+.login{
+    padding: 8px 9px 11px 8px;
+    text-decoration: none;
+    color: var(--secundary);
+    margin right:  15vb;
+
+    
+}
+.flechita img {
+    height: 10px;
+    width: 10px;
+}
+.flechita{
+    padding-left: 12px;
+}
+
