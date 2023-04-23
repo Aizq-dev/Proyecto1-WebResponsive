@@ -12,26 +12,22 @@
     --borders: hsl(0, 0%, 92%);
     --hoover: #F6F6F6;
 }
-.border{
-    border-bottom: 1px solid var(--borders);
-}
-
 .header-top{
     font-size: 13px;
     color: var(--secundary);
     display:flex;
     justify-content: space-between;
-    margin: 0 20%;  
+    margin: 0 15%;  
     }
 .phone {
     font-family: arial;
-    padding:5px 0px 10px;
+    padding:5px 0px 10px 0px;
    
 }
 .phone span{
     font-family: arial;
 }
-.phone img{
+.icon{
     height: 1rem
   
 }
@@ -59,6 +55,7 @@
     }
 .money strong{
     color: var(--primary);
+    padding-left: 5px;
 }
 
 .login{
@@ -75,7 +72,8 @@
 .flechita{
     
     padding-top: 10px;
-    
+    padding-right: 10px;
+    padding-left: 5px;
 }
 
 .checkbox{
@@ -91,7 +89,8 @@
     margin-top: 140px;
     margin-left: 100px;
     z-index: 10;
-    border:1px solid var(--borders);      
+    border:1px solid var(--borders);   
+    background-color: #ffff;   
 }
 .money-nav{
     position: absolute;
@@ -103,6 +102,8 @@
     margin-left: 100px;
     z-index: 10;
     border:1px solid var(--borders);
+    background-color: #ffff;   
+
 }
 .nav-links{
     display: block;
@@ -127,13 +128,63 @@
 }
 
 #lenguageToggle:checked + ul.lenguage-nav{
-    display: block;
-    
+    display: block;   
 }
-
-
-
-
 #moneyToggle:checked +ul.money-nav{
     display: block;
+}
+
+.border{
+    border-top:1px solid var(--borders);
+    border-bottom: 1px solid var(--borders);
+}
+.header-middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:0 15%;   
+}
+.search{
+    padding:45px 7px 0px;
+    height: 90px;
+  
+}
+.search div{
+  display:flex;
+  height: 45px;
+  width: 80%;
+ background-color: var(--hoover);
+ border: 2px solid #e2e3e4
+}
+.search > div input{
+padding-left: 7px;
+width: 90%;
+border: none;
+outline:none;
+background-color: transparent;
+
+}
+.search >div button{
+    border: none;
+    outline:none;
+    background-color: transparent;
+}
+.lupa{
+    height: 20px;
+}
+.search div:hover{
+    border: 2px solid var(--primary);
+    width: 100%;
+    transition: 0.4s;
+}
+.logo{
+    height: 221px;
+    border: 1px solid red;
+}
+.buy-review{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.carrito{
+    
+    background-color: #00b06c;
 }
