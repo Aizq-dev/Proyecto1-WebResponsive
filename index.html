@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <div class="border">
             <nav class="header-top">
                 
                 <div class="phone">
@@ -19,19 +20,42 @@
                     <div >
                     <a href="#" title="Contacto"class="option contact">Contacto</a>
                 </div>
+                
                 <div class="option lenguage">
                     <span>Español</span>
-                    <div class="flechita">
-                        <img src="./asset/flecha-hacia-abajo.png"  alt="flehita"/> </div>
+                    <input type="checkbox" id="lenguageToggle"class="checkbox"/>
+                    <ul class="lenguage-nav" id="js-options">
+                        <li ><a href="#" class="nav-links selected"><span>Español</span></a></li>
+                        <li ><a href="#"class="nav-links"><span>Ingles</span></a></li>
+                        <li "><a href="#"class="nav-links"><span>Portuges</span></a></li>
+                
                 </div>
+                <div class="flechita">
+                    <label for="lenguageToggle" class="lenguagenav-toggle" id="js-navbartoggle"><img src="./asset/flecha-hacia-abajo.png"  alt="flehita"/></label>
+                    
+            </div>
                 <div class="option money">
-                    <span>Divisa :</span><strong>Eur</strong><div class="flechita"><img src="./asset/flecha-hacia-abajo.png"  alt="flehita"/> </div>
+                   <span>Divisa :</span>
+                   <strong>Eur</strong>
+                   <input type="checkbox" id="moneyToggle" class="checkbox"/>
+                   <ul class="money-nav" id="js-options">
+                    <li ><a href="#"class="nav-links"><span>A Dollar</span></a></li>
+                    <li ><a href="#"class="nav-links"><span>Dollar</span></a></li>
+                    <li ><a href="#"class="nav-links selected"><span>Euro</span></a></li>
+                    <li ><a href="#"class="nav-links"><span>GBP</span></a></li>
+                    <li ><a href="#"class="nav-links"><span>Krona</span></a></li>
+                    <li ><a href="#"class="nav-links"><span>Zloty</span></a></li>
+
+                </div>
+                <div class="flechita">
+                    <label for="moneyToggle" class="moneynav-toggle" id="js-navbartoggle"><img src="./asset/flecha-hacia-abajo.png"  alt="flehita"/></label> 
                 </div>
                 <div "><a href="#" class="option login">Iniciar sesión</a></div>
             
             
             </section>
             </nav>
+        </div>
             <div class="searcher"></div>
 
 
