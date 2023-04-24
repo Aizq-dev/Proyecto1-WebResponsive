@@ -12,12 +12,14 @@
     --borders: hsl(0, 0%, 92%);
     --hoover: #F6F6F6;
 }
+
+
 .header-top{
     font-size: 13px;
     color: var(--secundary);
     display:flex;
     justify-content: space-between;
-    margin: 0 15%;  
+    padding: 0 15%;  
     }
 .phone {
     font-family: arial;
@@ -62,10 +64,11 @@
     padding: 8px 9px 11px 8px;
     text-decoration: none;
     color: var(--secundary);
+    
       
 }
 .flechita img {
-    height: 10px;
+   height: 10px;
     width: 8px;
     
 }
@@ -73,7 +76,8 @@
     
     padding-top: 10px;
     padding-right: 10px;
-    padding-left: 5px;
+    padding-left: 5px; 
+    
 }
 
 .checkbox{
@@ -189,7 +193,57 @@ background-color: transparent;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+.buy-review div{
+    display: flex;
+    justify-content:right;
+    align-items: end; 
+    margin-bottom: 10px;
+}
 .carrito{
-    
-    background-color: #00b06c;
+    border: 2px solid var(--borders);
+    border-top:3px solid var(--primary);
+    height: 50px;
+    width: 70%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px 14px 16px;
+}
+.carro{
+padding-right: 15px;
+}
+.carrito span{
+    font-family: open sains, sans serif;
+    padding-right: 20px;
+}
+.flecha{
+    margin-left: 60px;
+    width: 10px;
+    height: 10px;
+}
+.flecha:hover{
+ display:none
+}
+.header-bottom{
+   display:flex;
+   flex-direction: wrap;
+    margin: 0 15%;
+
+}
+.sections{
+    padding: 0 6px;
+    display:flex;
+    flex-direction: wrap;
+    font-size: 14px ;
+    font-weight: bold;
+}
+.secions span{
+    display: flex;
+}
+.flechita{
+    /* width: 10%; */
+}
+.kids span{
+    color: rgb(68 49 161);
 }
