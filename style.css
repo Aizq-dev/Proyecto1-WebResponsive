@@ -13,13 +13,22 @@
     --hoover: #F6F6F6;
 }
 
+#container{
+    min-width: 1200px;
+    margin-right:  10rem;
+    margin-left:10rem;
+}
+
 
 .header-top{
     font-size: 13px;
     color: var(--secundary);
     display:flex;
     justify-content: space-between;
-    padding: 0 15%;  
+    /* min-width: 1200px; */
+    /* margin-left: 15rem; */
+    /* margin-right: 15em;   */
+  
     }
 .phone {
     font-family: arial;
@@ -228,15 +237,17 @@ padding-right: 15px;
 .header-bottom{
    display:flex;
    flex-direction: wrap;
-    margin: 0 15%;
+    padding-top: 10px;
 
 }
 .sections{
-    padding: 0 6px;
+    padding: 0 10px;
     display:flex;
     flex-direction: wrap;
     font-size: 14px ;
     font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
 .secions span{
     display: flex;
