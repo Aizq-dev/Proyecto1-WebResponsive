@@ -636,26 +636,31 @@ padding-top: 10px;
 }
 
 @media screen and (max-width: 375px){
-    #container{
-        max-width: 100%;
-    }
-    .header-middle{
+#container{
+        width: auto;
+ }
+.header-middle{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         margin:0 15%;  }
-    .colum-container{
+.colum-container{
        
       grid-template-columns: 1fr
   }
-  .photo-link img{
+.photo-link img{
     width: 100%;
 }
-  .product-container{
+.product{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: wrap;
+    overflow-x: scroll;}
+.product-container{
     min-width: 100%;
  }
- .footer-middle{
+.footer-middle{
     display: flex;
     flex-direction: column;
     padding-left: 10px;
@@ -694,5 +699,5 @@ padding-top: 10px;
 .big-photo{
     display: block;
     height: auto;
-    width: 375px;
+    width: auto;
 }}
