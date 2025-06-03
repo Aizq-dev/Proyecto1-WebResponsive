@@ -1,4 +1,7 @@
-Primer proyecto desarrollado durante mi formación como Full Stack Developer. Se trata de una landing page para una tienda online, construida exclusivamente con HTML y CSS. La web es completamente responsive,
-adaptándose correctamente a diferentes tamaños de pantalla. Incluye efectos hover en imágenes e iconos, aportando una experiencia de usuario más dinámica e interactiva.
+Este fue mi primer proyecto durante la formación como desarrollador Full Stack. Consiste en una landing page de una tienda online, desarrollada únicamente con HTML y CSS. Es totalmente responsive y cuenta con efectos hover aplicados a imágenes e iconos para mejorar la experiencia del usuario.
+El diseño está fuertemente inspirado (casi replicado) en una tienda online real, con el objetivo de practicar el desarrollo visual a partir de referencias profesionales.
 
-This was the first project I built during my training as a Full Stack Developer. It's a landing page for an online store, developed entirely with HTML and CSS. The site is fully responsive, adapting smoothly to different screen sizes. It includes hover effects on images and icons to enhance user experience with a more dynamic and interactive interface.
+This was my first project during my Full Stack Developer training. It’s a landing page for an online store, built exclusively with HTML and CSS. The website is fully responsive and includes hover effects on images and icons to enhance the user experience.
+The design is heavily inspired (almost replicated) from a real online store, as a way to practice visual development based on professional references.
+
+[DEMO NETLIFY](https://landing-my-first-proyect.netlify.app/)
